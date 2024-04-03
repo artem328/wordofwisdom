@@ -1,0 +1,13 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    command: [-port, "9000", -debug, -difficulty, "18"]
+
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    command: [-addr, server:9000, -verbose]
+    restart: always

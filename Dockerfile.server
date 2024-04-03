@@ -1,0 +1,15 @@
+FROM golang:1.22.1-alpine3.18 AS build
+
+WORKDIR /src
+
+COPY go.mod go.sum .
+RUN go mod download
+
+COPY . .
+RUN go build -o /build/wow-server ./cmd/server
+
+FROM alpine:3.18
+
+COPY --from=build /build/wow-server /usr/local/bin/wow-server
+
+ENTRYPOINT ["/usr/local/bin/wow-server"]

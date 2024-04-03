@@ -1,0 +1,150 @@
+goos: linux
+goarch: amd64
+pkg: wordofwisdom/pkg/pow
+cpu: Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+BenchmarkProofOfWork
+BenchmarkProofOfWork/Solve-1
+BenchmarkProofOfWork/Solve-1-8         	  786808	      1370 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-1
+BenchmarkProofOfWork/SolveParallel-1-8 	  113078	     10068 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-1
+BenchmarkProofOfWork/Validate-1-8      	 3430408	       340.2 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-2
+BenchmarkProofOfWork/Solve-2-8         	  410558	      2714 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-2
+BenchmarkProofOfWork/SolveParallel-2-8 	  102799	     11175 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-2
+BenchmarkProofOfWork/Validate-2-8      	 3503413	       343.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-3
+BenchmarkProofOfWork/Solve-3-8         	  218550	      5354 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-3
+BenchmarkProofOfWork/SolveParallel-3-8 	   87996	     13370 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-3
+BenchmarkProofOfWork/Validate-3-8      	 3516799	       350.1 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-4
+BenchmarkProofOfWork/Solve-4-8         	  109592	     11225 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-4
+BenchmarkProofOfWork/SolveParallel-4-8 	   70639	     16473 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-4
+BenchmarkProofOfWork/Validate-4-8      	 3554608	       345.7 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-5
+BenchmarkProofOfWork/Solve-5-8         	   55276	     21879 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-5
+BenchmarkProofOfWork/SolveParallel-5-8 	   51888	     22708 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-5
+BenchmarkProofOfWork/Validate-5-8      	 3444756	       335.5 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-6
+BenchmarkProofOfWork/Solve-6-8         	   28081	     42704 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-6
+BenchmarkProofOfWork/SolveParallel-6-8 	   35587	     33033 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-6
+BenchmarkProofOfWork/Validate-6-8      	 3292083	       336.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-7
+BenchmarkProofOfWork/Solve-7-8         	   13732	     85203 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-7
+BenchmarkProofOfWork/SolveParallel-7-8 	   23215	     54853 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-7
+BenchmarkProofOfWork/Validate-7-8      	 3320494	       341.7 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-8
+BenchmarkProofOfWork/Solve-8-8         	    7622	    182101 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-8
+BenchmarkProofOfWork/SolveParallel-8-8 	   13404	     80305 ns/op	    1089 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-8
+BenchmarkProofOfWork/Validate-8-8      	 3276538	       346.9 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-9
+BenchmarkProofOfWork/Solve-9-8         	    3650	    358464 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-9
+BenchmarkProofOfWork/SolveParallel-9-8 	    9258	    135203 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-9
+BenchmarkProofOfWork/Validate-9-8      	 3511530	       349.9 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-10
+BenchmarkProofOfWork/Solve-10-8        	    1728	    711662 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-10
+BenchmarkProofOfWork/SolveParallel-10-8         	    4200	    282166 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-10
+BenchmarkProofOfWork/Validate-10-8              	 3058431	       390.0 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-11
+BenchmarkProofOfWork/Solve-11-8                 	     780	   1488514 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-11
+BenchmarkProofOfWork/SolveParallel-11-8         	    2065	    536428 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-11
+BenchmarkProofOfWork/Validate-11-8              	 3506102	       354.4 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-12
+BenchmarkProofOfWork/Solve-12-8                 	     385	   3162362 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-12
+BenchmarkProofOfWork/SolveParallel-12-8         	    1286	    790932 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-12
+BenchmarkProofOfWork/Validate-12-8              	 3498702	       351.4 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-13
+BenchmarkProofOfWork/Solve-13-8                 	     166	   7063261 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-13
+BenchmarkProofOfWork/SolveParallel-13-8         	     685	   1663874 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-13
+BenchmarkProofOfWork/Validate-13-8              	 3472059	       338.8 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-14
+BenchmarkProofOfWork/Solve-14-8                 	     100	  13162279 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-14
+BenchmarkProofOfWork/SolveParallel-14-8         	     320	   3165279 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-14
+BenchmarkProofOfWork/Validate-14-8              	 3510859	       337.9 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-15
+BenchmarkProofOfWork/Solve-15-8                 	      52	  29509722 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-15
+BenchmarkProofOfWork/SolveParallel-15-8         	     162	   7271315 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-15
+BenchmarkProofOfWork/Validate-15-8              	 3415981	       342.3 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-16
+BenchmarkProofOfWork/Solve-16-8                 	      31	  35952036 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-16
+BenchmarkProofOfWork/SolveParallel-16-8         	     100	  14745961 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-16
+BenchmarkProofOfWork/Validate-16-8              	 3501012	       341.3 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-17
+BenchmarkProofOfWork/Solve-17-8                 	      20	  67882627 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-17
+BenchmarkProofOfWork/SolveParallel-17-8         	      72	  29360942 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-17
+BenchmarkProofOfWork/Validate-17-8              	 3464242	       345.0 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-18
+BenchmarkProofOfWork/Solve-18-8                 	       7	 145243279 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-18
+BenchmarkProofOfWork/SolveParallel-18-8         	      67	  52870683 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-18
+BenchmarkProofOfWork/Validate-18-8              	 3517846	       342.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-19
+BenchmarkProofOfWork/Solve-19-8                 	       4	 283354416 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-19
+BenchmarkProofOfWork/SolveParallel-19-8         	      13	 100405416 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-19
+BenchmarkProofOfWork/Validate-19-8              	 3445803	       342.2 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-20
+BenchmarkProofOfWork/Solve-20-8                 	       3	 362785897 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-20
+BenchmarkProofOfWork/SolveParallel-20-8         	       9	 144562272 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-20
+BenchmarkProofOfWork/Validate-20-8              	 3372308	       354.0 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-21
+BenchmarkProofOfWork/Solve-21-8                 	       2	1297776438 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-21
+BenchmarkProofOfWork/SolveParallel-21-8         	       6	 253190830 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-21
+BenchmarkProofOfWork/Validate-21-8              	 3174129	       350.9 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-22
+BenchmarkProofOfWork/Solve-22-8                 	       2	1223450129 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-22
+BenchmarkProofOfWork/SolveParallel-22-8         	       3	 364578317 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-22
+BenchmarkProofOfWork/Validate-22-8              	 3409958	       336.1 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-23
+BenchmarkProofOfWork/Solve-23-8                 	       1	11569942709 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-23
+BenchmarkProofOfWork/SolveParallel-23-8         	       1	2040401666 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-23
+BenchmarkProofOfWork/Validate-23-8              	 3597969	       333.3 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/Solve-24
+BenchmarkProofOfWork/Solve-24-8                 	       1	11317967030 ns/op	       0 B/op	       0 allocs/op
+BenchmarkProofOfWork/SolveParallel-24
+BenchmarkProofOfWork/SolveParallel-24-8         	       1	4379933883 ns/op	    1088 B/op	      28 allocs/op
+BenchmarkProofOfWork/Validate-24
+BenchmarkProofOfWork/Validate-24-8              	 3307111	       356.9 ns/op	       0 B/op	       0 allocs/op
+PASS
